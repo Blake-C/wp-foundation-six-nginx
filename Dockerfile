@@ -1,5 +1,4 @@
-FROM nginx:1.14.0-alpine
-MAINTAINER Blake Cerecero <blake@digitalblake.com>
+FROM nginx:1.17.8-alpine
 
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
