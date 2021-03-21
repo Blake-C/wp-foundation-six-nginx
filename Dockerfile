@@ -14,4 +14,4 @@ RUN openssl req -new -newkey rsa:4096 -x509 -sha256 -days 9999 -nodes \
 # RUN openssl dhparam 4096 -out /root/certs/dhparam.pem
 RUN	chmod 400 /root/certs/localhost.key
 
-WORKDIR /var/www/public_html
+WORKDIR /home/webdev/www
